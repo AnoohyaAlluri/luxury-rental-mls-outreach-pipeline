@@ -1,0 +1,28 @@
+```csv
+listing_id,listing_status,listing_date,city,property_type,listing_price,agent_name,agent_email,agent_phone,brokerage,source_file
+MLS1001,New Listing,2026-04-01,beverly hills,Single Family,18000,Jordan Lee,jordan.lee@example.com,(310) 555-0101,Example Realty Group,week_01_new_listings.csv
+MLS1002,New Listing,2026-04-02,SANTA MONICA,SFR,12500,Morgan Patel,morgan.patel@example.com,310-555-0102,Coastal Example Realty,week_01_new_listings.csv
+MLS1003,Leased,2026-04-03,brentwood,Single Family Residence,22000,Taylor Kim,taylor.kim@example.com,310.555.0103,Prime Mock Estates,week_01_leased.csv
+MLS1004,New Listing,2026-04-04,West Hollywood,Condo,9500,Riley Chen,riley.chen@example.com,(323) 555-0104,Urban Sample Properties,week_01_new_listings.csv
+MLS1005,Leased,2026-04-05,Pacific Palisades,SFR,26000,Avery Brooks,avery.brooks@example.com,3105550105,Luxury Sample Group,week_01_leased.csv
+MLS1006,New Listing,2026-04-06,malibu,Single Family,31000,Casey Morgan,casey.morgan@example.com,(424) 555-0106,Coastal Mock Realty,week_01_new_listings.csv
+MLS1007,New Listing,2026-04-07,Beverly Hills,single family,17500,Jamie Rivera,jamie.rivera@example.com,310-555-0107,Example Realty Group,week_01_new_listings.csv
+MLS1008,Leased,2026-04-08,Brentwood,SFR,14500,Drew Carter,drew.carter@example.com,3105550108,Prime Mock Estates,week_01_leased.csv
+MLS1009,New Listing,2026-04-09,Santa Monica,Townhouse,11000,Parker Adams,parker.adams@example.com,(310) 555-0109,Coastal Example Realty,week_01_new_listings.csv
+MLS1010,New Listing,2026-04-10,West LA,Condo,7800,Quinn Foster,quinn.foster@example.com,310-555-0110,Metro Sample Realty,week_01_new_listings.csv
+MLS1011,Leased,2026-04-11,Bel Air,SFR,42000,Skyler Bennett,skyler.bennett@example.com,(310) 555-0111,Elite Mock Properties,week_01_leased.csv
+MLS1012,New Listing,2026-04-12,beverly hills po,Single Family,19500,Cameron Blake,cameron.blake@example.com,3105550112,Example Realty Group,week_01_new_listings.csv
+MLS1013,New Listing,2026-04-13,Venice,Condo,8900,Reese Collins,reese.collins@example.com,310-555-0113,Beachside Sample Realty,week_01_new_listings.csv
+MLS1014,Leased,2026-04-14,Malibu,SFR,35000,Alex Monroe,alex.monroe@example.com,(424) 555-0114,Coastal Mock Realty,week_01_leased.csv
+MLS1015,New Listing,2026-04-15,Santa Monica,Single Family,16500,Harper Lane,,3105550115,Coastal Example Realty,week_01_new_listings.csv
+MLS1016,New Listing,2026-04-16,Brentwood,SFR,15200,Rowan Ellis,rowan.ellisexample.com,310-555-0116,Prime Mock Estates,week_01_new_listings.csv
+MLS1017,Leased,2026-04-17,West Hollywood,Condo,10200,Emerson Gray,emerson.gray@example.com,,Urban Sample Properties,week_01_leased.csv
+MLS1018,New Listing,2026-04-18,Beverly Hills,SFR,21000,Finley Reed,finley.reed@example.com,(310) 555-0118,Example Realty Group,week_01_new_listings.csv
+MLS1019,New Listing,2026-04-19,Pacific Palisades,Single Family Residence,28500,Kendall Hayes,kendall.hayes@example.com,310.555.0119,Luxury Sample Group,week_01_new_listings.csv
+MLS1020,Leased,2026-04-20,Santa Monica,SFR,13500,Jordan Lee,jordan.lee@example.com,(310) 555-0101,Example Realty Group,week_01_leased.csv
+MLS1003,Leased,2026-04-03,brentwood,Single Family Residence,22000,Taylor Kim,taylor.kim@example.com,310.555.0103,Prime Mock Estates,week_01_leased_duplicate.csv
+MLS1021,New Listing,2026-04-21,,SFR,16000,Sam Wilson,sam.wilson@example.com,3105550121,Metro Sample Realty,week_01_new_listings.csv
+MLS1022,New Listing,2026-04-22,Bel Air,SFR,,Devon Price,devon.price@example.com,310-555-0122,Elite Mock Properties,week_01_new_listings.csv
+MLS1023,Leased,2026-04-23,Malibu,Single Family,39000,,missing.name@example.com,4245550123,Coastal Mock Realty,week_01_leased.csv
+MLS1024,New Listing,2026-04-24,West LA,Condo,8200,Blake Stone,blake.stone@example.com,555,Metro Sample Realty,week_01_new_listings.csv
+```
