@@ -4,7 +4,8 @@ A portfolio-grade data automation and growth operations project based on a real 
 
 This project shows how raw MLS-style luxury rental listing files can be converted into a structured lead pipeline for high-value property management growth. The workflow covers data ingestion, cleaning, standardization, lead segmentation, campaign queue preparation, outreach tracking logic, and analytics-ready reporting.
 
-This repository is a public-safe reconstruction. All sample data is synthetic. No confidential company data, real MLS records, agent contact information, property addresses, internal Google Sheets, Gmail messages, Apps Script deployment links, or private company files are included.
+This repository is a public-safe reconstruction. All sample data is synthetic. No confidential company data, real MLS records, agent contact information, property addresses, internal Google Sheets, internal email messages, Apps Script deployment links, or private company files are included.
+
 ---
 
 ## 🎯 Project Objective
@@ -204,7 +205,7 @@ The original workflow involved a marketing operations stack. This public reconst
 
 * Google Sheets-style tracker logic
 * Google Apps Script-style automation logic
-* Gmail-style outreach tracking concepts
+* Email-style outreach tracking concepts
 * MLS-style listing exports
 * Python for public-safe data pipeline reconstruction
 * CSV-based mock data
@@ -231,7 +232,7 @@ The original workflow involved a marketing operations stack. This public reconst
 
 ## 🔒 Confidentiality Notice
 
-This repository is a public-safe reconstruction of a real growth operations workflow I worked on at Westside Property Management.
+This repository is a public-safe reconstruction of a real growth operations workflow I worked on for a property management company.
 
 It does not include:
 
@@ -244,13 +245,13 @@ It does not include:
 * Real listing IDs
 * Real listing prices tied to actual properties
 * Internal Google Sheets
-* Gmail threads
+* Internal email messages
 * Apps Script deployment URLs
 * Tracking pixel URLs
 * Internal execution logs
 * Screenshots from company systems
 * Raw Drive documents
-* Any confidential Westside Property Management data
+* Any confidential company data
 
 All records, examples, files, and outputs are synthetic or generalized for portfolio demonstration.
 
@@ -278,4 +279,3 @@ Planned build phases:
 This project is designed to show how marketing operations work can be structured like a technical data system.
 
 The goal is to demonstrate that growth work is not only campaign execution. It can include data architecture, QA logic, automation design, reporting workflows, and business development systems.
-
