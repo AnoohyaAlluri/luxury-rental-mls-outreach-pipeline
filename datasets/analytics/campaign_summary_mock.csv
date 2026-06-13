@@ -1,0 +1,4 @@
+```csv
+campaign_name,total_leads,valid_email_count,missing_email_count,valid_phone_count,missing_phone_count,duplicate_count,qa_pass_count,qa_review_count,qa_fail_count,qa_pass_rate,high_priority_count,medium_priority_count,review_priority_count,low_priority_count,outreach_ready_count,not_sent_count,sent_count,opened_count,clicked_count,replied_count,excluded_count,follow_up_required_count,follow_up_sent_count,email_readiness_rate,phone_readiness_rate,duplicate_rate,outreach_ready_rate,open_rate,click_rate,reply_rate
+Luxury Rental MLS Outreach Pipeline,25,23,2,23,2,2,18,6,1,72.0,9,9,6,1,18,18,0,0,0,0,7,0,0,92.0,92.0,8.0,72.0,0.0,0.0,0.0
+```
