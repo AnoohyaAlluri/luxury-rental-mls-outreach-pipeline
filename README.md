@@ -60,6 +60,9 @@ My responsibilities included:
 * Building a repeatable workflow that could support lead generation, agent referral development, and campaign reporting
 * Documenting the workflow in a public-safe way using synthetic data only
 
+```md
+📌 View the full visual workflow here: [`docs/project_architecture.md`](docs/project_architecture.md)
+```
 ---
 
 ## 🏗️ Data Architecture
