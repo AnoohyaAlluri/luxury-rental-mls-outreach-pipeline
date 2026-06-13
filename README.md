@@ -181,6 +181,80 @@ luxury-rental-mls-outreach-pipeline/
 ├── LICENSE
 └── .gitignore
 ```
+---
+## 🚀 How to Run This Project
+
+This project uses synthetic data only. No real company, MLS, agent, property, email, or internal system data is included.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/AnoohyaAlluri/luxury-rental-mls-outreach-pipeline.git
+cd luxury-rental-mls-outreach-pipeline
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+### 3. Activate the Virtual Environment
+
+For Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+For macOS or Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+### 4. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run the Full Pipeline
+
+```bash
+python run_pipeline.py
+```
+
+This runs the pipeline in order:
+
+```text
+Bronze Layer: raw data validation and profiling
+        ↓
+Silver Layer: data cleaning and standardization
+        ↓
+Gold Layer: campaign queue generation
+        ↓
+Analytics Layer: campaign summary reporting
+```
+
+### 6. Run Data Quality Tests
+
+```bash
+pytest
+```
+
+---
+
+## 📤 Generated Outputs
+
+After the pipeline runs, it creates these public-safe synthetic outputs:
+
+| Output               | Location                                            | Purpose                                  |
+| -------------------- | --------------------------------------------------- | ---------------------------------------- |
+| Raw data profile     | `datasets/analytics/raw_data_profile_mock.csv`      | Summarizes raw synthetic listing quality |
+| Cleaned lead records | `datasets/cleaned/cleaned_luxury_listing_leads.csv` | Standardized listing and contact fields  |
+| Campaign queue       | `outputs/campaign_queue_mock.csv`                   | Outreach-ready lead queue                |
+| Campaign summary     | `datasets/analytics/campaign_summary_mock.csv`      | Campaign readiness and reporting metrics |
 
 ---
 
