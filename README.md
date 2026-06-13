@@ -1,12 +1,47 @@
 # 🏡 Luxury Rental Lead Pipeline & MLS Outreach Automation System
+---
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-lightgrey)
+![Pytest](https://img.shields.io/badge/Pytest-Data%20Quality-green)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Project-orange)
+![Data](https://img.shields.io/badge/Data-Synthetic%20Only-red)
+---
 
 A portfolio-grade data automation and growth operations project based on a real luxury rental lead workflow.
 
 This project shows how raw MLS-style luxury rental listing files can be converted into a structured lead pipeline for high-value property management growth. The workflow covers data ingestion, cleaning, standardization, lead segmentation, campaign queue preparation, outreach tracking logic, and analytics-ready reporting.
 
 This repository is a public-safe reconstruction. All sample data is synthetic. No confidential company data, real MLS records, agent contact information, property addresses, internal Google Sheets, internal email messages, Apps Script deployment links, or private company files are included.
-
 ---
+
+## ✨ Project Highlights
+
+* Built a medallion-style data workflow using Bronze, Silver, Gold, and Analytics layers.
+* Converted raw MLS-style luxury rental listing data into cleaned and standardized lead records.
+* Designed QA rules for missing fields, invalid emails, invalid phones, duplicate listing IDs, and review records.
+* Created a campaign-ready outreach queue with lead IDs, campaign types, outreach priority, send status, and follow-up status.
+* Added Python scripts for raw data profiling, cleaning, campaign queue generation, and analytics reporting.
+* Added pytest-style validation checks to confirm output structure and summary accuracy.
+* Documented the workflow with requirements, data architecture, data catalog, QA rules, automation logic, and a case study.
+* Used only synthetic data and public-safe documentation.
+---
+## 📈 Business Impact
+
+This project shows how a manual lead-preparation workflow can be converted into a repeatable data and automation system.
+
+The pipeline improves the workflow by:
+
+* Turning raw listing exports into structured lead records.
+* Reducing manual cleanup through standardized cleaning rules.
+* Separating campaign-ready records from records that need review.
+* Creating clear QA logic for missing fields, invalid contact data, duplicate listings, and incomplete records.
+* Supporting more consistent outreach execution through campaign-ready queues.
+* Making campaign readiness visible through analytics metrics.
+* Connecting marketing operations, data quality, automation logic, and reporting in one workflow.
+
+The main value is not only outreach execution. The value is building a cleaner operating system for luxury rental lead generation.
+
+
 
 ## 🎯 Project Objective
 
@@ -148,6 +183,13 @@ Example metrics:
 * click count
 * reply count
 * follow-up count
+---
+
+## 📘 Case Study
+
+This project includes a full public-safe case study explaining the business problem, pipeline design, automation logic, QA rules, and reporting structure.
+
+📌 Read the case study here: [`docs/case_study.md`](docs/case_study.md)
 
 ---
 
@@ -288,6 +330,24 @@ The original workflow involved a marketing operations stack. This public reconst
 * CSV-based mock data
 * QA rules and reporting logic
 * GitHub documentation
+
+---
+
+## 🧠 Technical Skills Matrix
+
+| Skill Area           | What This Project Demonstrates                                                                                        |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Data Cleaning        | Standardizes raw MLS-style listing fields, agent names, cities, property types, emails, and phone numbers             |
+| Data Validation      | Flags missing fields, invalid emails, invalid phones, duplicate listing IDs, and records needing review               |
+| Pipeline Design      | Uses Bronze, Silver, Gold, and Analytics layers to structure the workflow                                             |
+| Python               | Uses Python scripts to load, clean, transform, and summarize synthetic data                                           |
+| pandas               | Uses pandas for CSV processing, field transformation, QA logic, and summary reporting                                 |
+| Testing              | Uses pytest-style checks to validate required columns, status values, and summary totals                              |
+| Marketing Operations | Converts raw listing data into campaign-ready outreach queues                                                         |
+| Campaign Analytics   | Produces readiness metrics, QA pass rates, priority counts, and outreach summary fields                               |
+| Automation Logic     | Documents batched sending, open tracking, click tracking, reply tracking, and follow-up logic                         |
+| Documentation        | Includes requirements, data catalog, architecture, workflow, QA rules, automation logic, and case study documentation |
+| Confidentiality      | Uses synthetic data and public-safe examples only                                                                     |
 
 ---
 
