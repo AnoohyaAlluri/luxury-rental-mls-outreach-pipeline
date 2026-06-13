@@ -4,8 +4,7 @@ A portfolio-grade data automation and growth operations project based on a real 
 
 This project shows how raw MLS-style luxury rental listing files can be converted into a structured lead pipeline for high-value property management growth. The workflow covers data ingestion, cleaning, standardization, lead segmentation, campaign queue preparation, outreach tracking logic, and analytics-ready reporting.
 
-This repository is a public-safe reconstruction. All sample data is synthetic. No confidential company data, real MLS records, agent contact information, property addresses, internal Google Sheets, Gmail messages, Apps Script deployment links, or Westside Property Management files are included.
-
+This repository is a public-safe reconstruction. All sample data is synthetic. No confidential company data, real MLS records, agent contact information, property addresses, internal Google Sheets, Gmail messages, Apps Script deployment links, or private company files are included.
 ---
 
 ## 🎯 Project Objective
