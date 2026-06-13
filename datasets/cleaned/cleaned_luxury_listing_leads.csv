@@ -1,0 +1,28 @@
+```csv
+listing_id,listing_status_clean,listing_date,city_clean,city_cluster,property_type_clean,listing_price,price_band,agent_first_name,agent_last_name,agent_email_clean,agent_phone_clean,brokerage_clean,email_available,phone_available,duplicate_flag,listing_age_days,qa_status,qa_notes
+MLS1001,New Listing,2026-04-01,Beverly Hills,Westside Luxury,SFR,18000.0,$15K+,Jordan,Lee,jordan.lee@example.com,3105550101,Example Realty Group,True,True,False,29,PASS,Valid email and phone
+MLS1002,New Listing,2026-04-02,Santa Monica,Westside Luxury,SFR,12500.0,$8K-$15K,Morgan,Patel,morgan.patel@example.com,3105550102,Coastal Example Realty,True,True,False,28,PASS,Valid email and phone
+MLS1003,Leased,2026-04-03,Brentwood,Westside Luxury,SFR,22000.0,$15K+,Taylor,Kim,taylor.kim@example.com,3105550103,Prime Mock Estates,True,True,True,27,REVIEW,Duplicate listing ID
+MLS1004,New Listing,2026-04-04,West Hollywood,Central Westside,Condo,9500.0,$8K-$15K,Riley,Chen,riley.chen@example.com,3235550104,Urban Sample Properties,True,True,False,26,PASS,Valid email and phone
+MLS1005,Leased,2026-04-05,Pacific Palisades,Westside Luxury,SFR,26000.0,$15K+,Avery,Brooks,avery.brooks@example.com,3105550105,Luxury Sample Group,True,True,False,25,PASS,Valid email and phone
+MLS1006,New Listing,2026-04-06,Malibu,Beach Luxury,SFR,31000.0,$15K+,Casey,Morgan,casey.morgan@example.com,4245550106,Coastal Mock Realty,True,True,False,24,PASS,Valid email and phone
+MLS1007,New Listing,2026-04-07,Beverly Hills,Westside Luxury,SFR,17500.0,$15K+,Jamie,Rivera,jamie.rivera@example.com,3105550107,Example Realty Group,True,True,False,23,PASS,Valid email and phone
+MLS1008,Leased,2026-04-08,Brentwood,Westside Luxury,SFR,14500.0,$8K-$15K,Drew,Carter,drew.carter@example.com,3105550108,Prime Mock Estates,True,True,False,22,PASS,Valid email and phone
+MLS1009,New Listing,2026-04-09,Santa Monica,Westside Luxury,Townhouse,11000.0,$8K-$15K,Parker,Adams,parker.adams@example.com,3105550109,Coastal Example Realty,True,True,False,21,PASS,Valid email and phone
+MLS1010,New Listing,2026-04-10,West La,Westside,Condo,7800.0,Under $8K,Quinn,Foster,quinn.foster@example.com,3105550110,Metro Sample Realty,True,True,False,20,PASS,Valid email and phone
+MLS1011,Leased,2026-04-11,Bel Air,Westside Luxury,SFR,42000.0,$15K+,Skyler,Bennett,skyler.bennett@example.com,3105550111,Elite Mock Properties,True,True,False,19,PASS,Valid email and phone
+MLS1012,New Listing,2026-04-12,Beverly Hills Po,Westside Luxury,SFR,19500.0,$15K+,Cameron,Blake,cameron.blake@example.com,3105550112,Example Realty Group,True,True,False,18,PASS,Valid email and phone
+MLS1013,New Listing,2026-04-13,Venice,Beach Luxury,Condo,8900.0,$8K-$15K,Reese,Collins,reese.collins@example.com,3105550113,Beachside Sample Realty,True,True,False,17,PASS,Valid email and phone
+MLS1014,Leased,2026-04-14,Malibu,Beach Luxury,SFR,35000.0,$15K+,Alex,Monroe,alex.monroe@example.com,4245550114,Coastal Mock Realty,True,True,False,16,PASS,Valid email and phone
+MLS1015,New Listing,2026-04-15,Santa Monica,Westside Luxury,SFR,16500.0,$15K+,Harper,Lane,,3105550115,Coastal Example Realty,False,True,False,15,REVIEW,Missing or invalid email
+MLS1016,New Listing,2026-04-16,Brentwood,Westside Luxury,SFR,15200.0,$15K+,Rowan,Ellis,,3105550116,Prime Mock Estates,False,True,False,14,REVIEW,Missing or invalid email
+MLS1017,Leased,2026-04-17,West Hollywood,Central Westside,Condo,10200.0,$8K-$15K,Emerson,Gray,emerson.gray@example.com,,Urban Sample Properties,True,False,False,13,PASS,Missing or invalid phone
+MLS1018,New Listing,2026-04-18,Beverly Hills,Westside Luxury,SFR,21000.0,$15K+,Finley,Reed,finley.reed@example.com,3105550118,Example Realty Group,True,True,False,12,PASS,Valid email and phone
+MLS1019,New Listing,2026-04-19,Pacific Palisades,Westside Luxury,SFR,28500.0,$15K+,Kendall,Hayes,kendall.hayes@example.com,3105550119,Luxury Sample Group,True,True,False,11,PASS,Valid email and phone
+MLS1020,Leased,2026-04-20,Santa Monica,Westside Luxury,SFR,13500.0,$8K-$15K,Jordan,Lee,jordan.lee@example.com,3105550101,Example Realty Group,True,True,False,10,PASS,Valid email and phone
+MLS1003,Leased,2026-04-03,Brentwood,Westside Luxury,SFR,22000.0,$15K+,Taylor,Kim,taylor.kim@example.com,3105550103,Prime Mock Estates,True,True,True,27,REVIEW,Duplicate listing ID
+MLS1021,New Listing,2026-04-21,,Review Needed,SFR,16000.0,$15K+,Sam,Wilson,sam.wilson@example.com,3105550121,Metro Sample Realty,True,True,False,9,REVIEW,Missing city
+MLS1022,New Listing,2026-04-22,Bel Air,Westside Luxury,SFR,,Unknown,Devon,Price,devon.price@example.com,3105550122,Elite Mock Properties,True,True,False,8,REVIEW,Missing or invalid listing price
+MLS1023,Leased,2026-04-23,Malibu,Beach Luxury,SFR,39000.0,$15K+,,,missing.name@example.com,4245550123,Coastal Mock Realty,True,True,False,7,FAIL,Missing agent name
+MLS1024,New Listing,2026-04-24,West La,Westside,Condo,8200.0,$8K-$15K,Blake,Stone,blake.stone@example.com,,Metro Sample Realty,True,False,False,6,PASS,Missing or invalid phone
+```
